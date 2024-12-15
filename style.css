@@ -948,6 +948,7 @@ margin: 1rem 0rem ;
 
 @media(max-width:1000px) 
 {
+  
   .nav-items {
     position: fixed;
     top: 0;
@@ -1045,7 +1046,7 @@ margin: 1rem 0rem ;
   padding-bottom: 2rem;
 }
 .iten--6 p {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 .iten--5 img {
   width: 100%;
@@ -1082,7 +1083,7 @@ margin: 1rem 0rem ;
  
 }
 .card-bottum-text h2{
- font-size: 2rem;
+ font-size: 1.5rem;
  font-weight: 800;
  
 }
@@ -1093,7 +1094,7 @@ padding-bottom: 1rem;
  
 }
 .section{
-  padding: 0rem 1rem;
+  padding: 1.5rem 1rem;
 }
 
 /* .vedio-and-text */
@@ -1124,7 +1125,31 @@ padding-bottom: 1rem;
   
 }
 
-/* =================animation scroll ============= */
+
+/* what is your challenge */
+.grid__1 {
+  
+  grid-template-columns: 1fr;
+  margin-top: 3rem;
+}
+ 
+
+/* form */
+.grid-box-1 {
+
+  grid-template-columns:  1fr;
+  grid-template-rows: repeat(auto, auto);
+  width: 100%;
+
+}
+.attached-file button {
+
+  width: 100%;
+  padding: 0.6rem;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+}
+
 
 
 
